@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+}
+.game_border {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #89CFF0;
+}
+.game_canvas {
+	position: relative;
+	background: #F0FFFF;
+	width: 95%;
+	height: 90%;
+	top: 5%; /* Pushes it down by 5% so it is centered */
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.score {
+	position: relative;
+	left: 20px;
+	font-size: 40px;
+}
+
+.character {
+	width: 60px;
+	height: auto;
+	position: absolute;
+	left: 200px;
+}
+
+.wood {
+	height: 60px;
+	width: 350px;
+	position: absolute;
+	animation: move_wood 6s;
+}
+
+@keyframes move_wood {
+	from{left: 1000%;}
+	to{left: -200%;}
+}
+
+.game_over {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+	display: none;
+}
+
+.play_again {
+	display: block;
+	margin: 0 auto;
+	background: #89CFF0;
+	border-radius: 40px;
+	text-decoration: none;
+	width: 250px;
+	height: auto;
+	font-size: 40px;
+	border: yellow solid 2px;
+	color: white;
+	transition: 0.3s;
+}
+
+.play_again:hover {
+	background: #FFF;
+	color: black;
+}
+
