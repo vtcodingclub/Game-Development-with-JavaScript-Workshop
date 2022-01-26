@@ -6,6 +6,7 @@
 3. If you are coding on Replit.com you can "Fork" this start template, which contains all the images needed for this workshop!
 - https://replit.com/@DonaldKLee/Game-Dev-with-JS-Starter-Kit#index.html
 4. Feel free to change up any of the images if you want to add your own designs/characters!
+5. Feel free to fork the completed game here on to Repl: https://replit.com/@DonaldKLee/Game-Dev-with-JS#index.html
 
 ## JavaScript Resources:
 - https://www.w3schools.com/js/
